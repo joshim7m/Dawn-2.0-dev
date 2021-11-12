@@ -1,5 +1,23 @@
 {
   "sections": {
+    "1636736001972b4644": {
+      "type": "hero",
+      "blocks": {
+        "d5828f26-af10-49f6-b719-20902f02e4f6": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
+          }
+        }
+      },
+      "block_order": [
+        "d5828f26-af10-49f6-b719-20902f02e4f6"
+      ],
+      "settings": {
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -67,6 +85,7 @@
     }
   },
   "order": [
+    "1636736001972b4644",
     "featured_products",
     "collage",
     "video"
