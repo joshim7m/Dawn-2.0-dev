@@ -88,22 +88,12 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
     }
   },
   "order": [
     "16368059035f4ec948",
     "16367756652f50d607",
     "16367933522cc3b739",
-    "collage",
-    "video"
+    "collage"
   ]
 }
