@@ -1,87 +1,42 @@
 .section__hero{
-
+	min-height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
 }
-
-.section-title{
-	font-family: var(--font-heading-family);
-	font-size: 36px;
-	font-weight: 900;
-	line-height: 42px;
-	text-align: center;
-}
-.hero-collection-grid{
+.hero-innter{
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: repeat(3, 1fr);
-	grid-row-gap: 25px;
-	padding: 100px 0;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 70vh;
 }
-.hero-collection-grid a{
-	text-decoration: none;
+.hero-column{
+	display: flex;
+	align-items: flex-end;
 }
-.hero-collection-box{
-	position: relative;
-	overflow: hidden;
-	border: 2px solid #666;
-	border-radius: 2px;
-	width: 310px;
-	height: 258px;
-	margin: 0 auto;
+.hero-content {
+    margin-bottom: 80px;
 }
-.bg-image,
-.hover-image{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	transition: .3s ease-in-out;
+.hero-content p,
+.hero-content h2{
+	color:  #fff;
 }
-.hero-collection-box:hover .collection-title{
-	color: white;
+.hero-content p{
+	font-family: var(--font-heading-family);
+	margin-bottom: 30px;
 }
-.hero-collection-box:hover .hover-image{
-	opacity: 1;
-	width: 100%;
+.hero-content h2{
+	font-size: 55px;
 }
-.hero-collection-box:hover .bg-image{
-	opacity: 0;
-	width: 0;
+.hero-btn {
+    background: radial-gradient(white, #919191);
+    padding: 13px 40px;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
-
-.hover-image{
-	width: 0px;
-	overflow: hidden;
-	opacity: 0;
-	background: #f8effa;
-}
-.hero-collection-box img{
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-}
-
-.hero-collection-box .collection-title {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 2;
-}
-@media screen and (min-width: 768px) {
-  .hero-collection-grid{
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: 1fr 1fr;
-		gap:  25px;
-
-	}
-}
-@media screen and (min-width: 1088px) {
-  .hero-collection-grid{
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: 1fr;
-		gap:  25px;
-
-	}
+.hero-btn:hover{
+	background: radial-gradient(#b3b3b3, #fff);
+	text-decoration: underline;
 }

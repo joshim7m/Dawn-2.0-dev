@@ -2,38 +2,8 @@
   "sections": {
     "16368059035f4ec948": {
       "type": "hero",
-      "blocks": {
-        "43c22e07-63be-4180-8575-95fd83268404": {
-          "type": "collection",
-          "settings": {
-            "collection": "back-to-work",
-            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-denim.png"
-          }
-        },
-        "d9f4e59e-def5-465e-af1d-bd35175d6b5b": {
-          "type": "collection",
-          "settings": {
-            "collection": "beach",
-            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
-          }
-        },
-        "d3cb2460-bb24-4cb8-b183-9325fc1e8998": {
-          "type": "collection",
-          "settings": {
-            "collection": "denim",
-            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
-          }
-        }
-      },
-      "block_order": [
-        "43c22e07-63be-4180-8575-95fd83268404",
-        "d9f4e59e-def5-465e-af1d-bd35175d6b5b",
-        "d3cb2460-bb24-4cb8-b183-9325fc1e8998"
-      ],
       "settings": {
+        "bg_img": "shopify:\/\/shop_images\/pexels-gantas-vaiciulenas-4761866.jpg"
       }
     },
     "16367756652f50d607": {
@@ -79,6 +49,22 @@
       "settings": {
       }
     },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "all",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -118,12 +104,23 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
     "16368059035f4ec948",
     "16367756652f50d607",
     "16367933522cc3b739",
-    "collage"
+    "featured_products",
+    "collage",
+    "video"
   ]
 }

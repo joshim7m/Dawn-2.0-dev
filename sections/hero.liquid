@@ -1,26 +1,16 @@
 {{ 'section-hero.css' | asset_url | stylesheet_tag }}
 
-<div class="section__hero page-width">
-	<div class="section-title">
-		<h2 class="section-title">Vintage & Thrift</h2>
-	</div>
-
-	<div class="hero-collection-grid">
-		{% for block in section.blocks %}
-			<div class="hero-collection-box">
-			 <a href="{{ block.settings.collection.url }}">
-					<h2 class="collection-title">{{ block.settings.collection.title }}</h2>
-					<div class="bg-image">
-						<img src="{{ block.settings.image_bg | img_url:'medium' }}" alt="">
-					</div>
-					<div class="hover-image">
-						<img src="{{ block.settings.image_hover | img_url:'medium' }}" alt="">
-					</div>
-			 </a>
+<div class="section__hero" style="background-image: url({{ section.settings.bg_img | img_url: 'master' }});">
+	<div class="hero-innter page-width">
+		<div class="hero-column">
+			<div class="hero-content">
+				<h2>Vintage & Thrift</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minima ipsa soluta commodi possimus illo deleniti quos dolor eos.</p>
+				<a href="#" class="hero-btn">Explore Now</a>
 			</div>
-		{% endfor %}
+		</div>
+		<div class="hero-column"></div>
 	</div>
-
 </div>
 
 
@@ -29,28 +19,11 @@
 {% schema %}
 {
 	"name": "Hero",
-	"blocks": [
+	"settings": [
 		{
-			"type": "collection",
-			"limit": 3,
-			"name": "Collection",
-			"settings": [
-				{
-					"type": "collection",
-					"id": "collection",
-					"label": "Collection"
-				},
-				{
-					"type": "image_picker",
-					"id": "image_bg",
-					"label": "BG Image"
-				},
-				{
-					"type": "image_picker",
-					"id": "image_hover",
-					"label": "Hover Image"
-				}
-			]
+			"type": "image_picker",
+			"id": "bg_img",
+			"label": "BG Image"
 		}
 	],
 	"presets": [
