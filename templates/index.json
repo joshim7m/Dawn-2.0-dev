@@ -1,17 +1,17 @@
 {
   "sections": {
-    "1636782144fee133a2": {
+    "16368059035f4ec948": {
       "type": "hero",
       "blocks": {
-        "8287cdcf-a0c2-4fb2-8840-1ff0c75e0d77": {
+        "43c22e07-63be-4180-8575-95fd83268404": {
           "type": "collection",
           "settings": {
             "collection": "back-to-work",
-            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim.png"
           }
         },
-        "7b95bdd7-5341-4967-b160-99cf7aef09b1": {
+        "d9f4e59e-def5-465e-af1d-bd35175d6b5b": {
           "type": "collection",
           "settings": {
             "collection": "beach",
@@ -19,19 +19,19 @@
             "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
           }
         },
-        "383da1d0-48d1-4c52-9b4f-6990b1ce013d": {
+        "d3cb2460-bb24-4cb8-b183-9325fc1e8998": {
           "type": "collection",
           "settings": {
             "collection": "denim",
-            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
             "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
           }
         }
       },
       "block_order": [
-        "8287cdcf-a0c2-4fb2-8840-1ff0c75e0d77",
-        "7b95bdd7-5341-4967-b160-99cf7aef09b1",
-        "383da1d0-48d1-4c52-9b4f-6990b1ce013d"
+        "43c22e07-63be-4180-8575-95fd83268404",
+        "d9f4e59e-def5-465e-af1d-bd35175d6b5b",
+        "d3cb2460-bb24-4cb8-b183-9325fc1e8998"
       ],
       "settings": {
       }
@@ -42,28 +42,28 @@
         "collection": "weekly-picks"
       }
     },
-    "1636798441b31d6436": {
+    "16367933522cc3b739": {
       "type": "collection-grid",
       "blocks": {
-        "70f0b50b-4181-48d2-a62b-1d9bed3faf1d": {
+        "546724de-cf1d-4be6-ba57-d45fc1da4b79": {
           "type": "collection",
           "settings": {
             "collection": "tops"
           }
         },
-        "13f389e4-f29e-4104-8c00-9ad838ff2523": {
+        "b6034f66-3126-4b45-8604-b21a0f84462a": {
           "type": "collection",
           "settings": {
             "collection": "bottoms"
           }
         },
-        "2c055ebd-129a-4d6b-b21c-5542005a9922": {
+        "d2d9eccd-c85c-43d2-85cb-0e7057467bf3": {
           "type": "collection",
           "settings": {
             "collection": "dresses"
           }
         },
-        "6824aebf-9dd5-4766-a473-720fc083c208": {
+        "227c6da4-47e8-469b-b341-6cdc4a0a329e": {
           "type": "collection",
           "settings": {
             "collection": "accessories"
@@ -71,12 +71,28 @@
         }
       },
       "block_order": [
-        "70f0b50b-4181-48d2-a62b-1d9bed3faf1d",
-        "13f389e4-f29e-4104-8c00-9ad838ff2523",
-        "2c055ebd-129a-4d6b-b21c-5542005a9922",
-        "6824aebf-9dd5-4766-a473-720fc083c208"
+        "546724de-cf1d-4be6-ba57-d45fc1da4b79",
+        "b6034f66-3126-4b45-8604-b21a0f84462a",
+        "d2d9eccd-c85c-43d2-85cb-0e7057467bf3",
+        "227c6da4-47e8-469b-b341-6cdc4a0a329e"
       ],
       "settings": {
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "all",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     },
     "collage": {
@@ -118,12 +134,23 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
-    "1636782144fee133a2",
+    "16368059035f4ec948",
     "16367756652f50d607",
-    "1636798441b31d6436",
-    "collage"
+    "16367933522cc3b739",
+    "featured_products",
+    "collage",
+    "video"
   ]
 }
