@@ -1,5 +1,50 @@
 {
   "sections": {
+    "1636782144fee133a2": {
+      "type": "hero",
+      "blocks": {
+        "8287cdcf-a0c2-4fb2-8840-1ff0c75e0d77": {
+          "type": "collection",
+          "settings": {
+            "collection": "back-to-work",
+            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
+          }
+        },
+        "7b95bdd7-5341-4967-b160-99cf7aef09b1": {
+          "type": "collection",
+          "settings": {
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
+          }
+        },
+        "383da1d0-48d1-4c52-9b4f-6990b1ce013d": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim",
+            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
+          }
+        },
+        "259255da-4080-4710-af2f-f055c6a05f65": {
+          "type": "collection",
+          "settings": {
+            "collection": "beach",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
+          }
+        }
+      },
+      "block_order": [
+        "8287cdcf-a0c2-4fb2-8840-1ff0c75e0d77",
+        "7b95bdd7-5341-4967-b160-99cf7aef09b1",
+        "383da1d0-48d1-4c52-9b4f-6990b1ce013d",
+        "259255da-4080-4710-af2f-f055c6a05f65"
+      ],
+      "settings": {
+      }
+    },
     "16367756652f50d607": {
       "type": "weekly-picks",
       "settings": {
@@ -54,57 +99,12 @@
         "description": "",
         "full_width": false
       }
-    },
-    "1636782144fee133a2": {
-      "type": "hero",
-      "blocks": {
-        "8287cdcf-a0c2-4fb2-8840-1ff0c75e0d77": {
-          "type": "collection",
-          "settings": {
-            "collection": "back-to-work",
-            "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-work-hover.png"
-          }
-        },
-        "7b95bdd7-5341-4967-b160-99cf7aef09b1": {
-          "type": "collection",
-          "settings": {
-            "collection": "beach",
-            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
-          }
-        },
-        "383da1d0-48d1-4c52-9b4f-6990b1ce013d": {
-          "type": "collection",
-          "settings": {
-            "collection": "denim",
-            "image_bg": "shopify:\/\/shop_images\/hero-work.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
-          }
-        },
-        "259255da-4080-4710-af2f-f055c6a05f65": {
-          "type": "collection",
-          "settings": {
-            "collection": "beach",
-            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
-            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
-          }
-        }
-      },
-      "block_order": [
-        "8287cdcf-a0c2-4fb2-8840-1ff0c75e0d77",
-        "7b95bdd7-5341-4967-b160-99cf7aef09b1",
-        "383da1d0-48d1-4c52-9b4f-6990b1ce013d",
-        "259255da-4080-4710-af2f-f055c6a05f65"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
+    "1636782144fee133a2",
     "16367756652f50d607",
     "collage",
-    "video",
-    "1636782144fee133a2"
+    "video"
   ]
 }
