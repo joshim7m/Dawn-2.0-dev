@@ -91,13 +91,41 @@
         "mobile_layout": "collage"
       }
     },
-    "video": {
-      "type": "video",
+    "1636798441b31d6436": {
+      "type": "collection-grid",
+      "blocks": {
+        "70f0b50b-4181-48d2-a62b-1d9bed3faf1d": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops"
+          }
+        },
+        "13f389e4-f29e-4104-8c00-9ad838ff2523": {
+          "type": "collection",
+          "settings": {
+            "collection": "bottoms"
+          }
+        },
+        "2c055ebd-129a-4d6b-b21c-5542005a9922": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "6824aebf-9dd5-4766-a473-720fc083c208": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "70f0b50b-4181-48d2-a62b-1d9bed3faf1d",
+        "13f389e4-f29e-4104-8c00-9ad838ff2523",
+        "2c055ebd-129a-4d6b-b21c-5542005a9922",
+        "6824aebf-9dd5-4766-a473-720fc083c208"
+      ],
       "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
       }
     }
   },
@@ -105,6 +133,6 @@
     "1636782144fee133a2",
     "16367756652f50d607",
     "collage",
-    "video"
+    "1636798441b31d6436"
   ]
 }
