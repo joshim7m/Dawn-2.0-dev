@@ -1,0 +1,56 @@
+.section__weekly-pick{
+
+}
+
+.section-title{
+	font-family: var(--font-heading-family);
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	text-align: center;
+}
+.weekly-collection{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+.product-item{
+	max-width: 320px;
+	height: 400px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+.product-image,
+.product-footer{
+	text-align: center;
+	text-decoration: none;
+}
+.product-title a{
+	text-align: center;
+	text-decoration: none;
+	color:  black;
+	font-size: 22px;
+}
+.product-footer .product-price{
+	text-align: center;
+}
+.bubble{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 95px;
+	height: 90px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and (min-width:  768px){
+	.weekly-collection{
+		flex-direction: row;
+
+	}
+}

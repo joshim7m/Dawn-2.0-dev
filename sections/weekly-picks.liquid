@@ -1,0 +1,54 @@
+{{ 'section-weekly-picks.css' | asset_url | stylesheet_tag }}
+
+
+<div class="section__weekly-pick page-width">
+	<div class="section-title center">
+		<h2 class="section-title">picks of the week</h2>
+	</div>
+
+	<div class="weekly-collection">
+		{% for product in section.settings.collection.products %}
+			<div class="product-item">
+					<div class="bubble bubble--{% if product.tags contains 'New' %}new{% elsif product.tags contains 'Fave' %}fave{% elsif product.compare_at_price != blank %}sale{% endif %}">
+						<span>
+							{% if product.tags contains 'New' %}
+							new
+							{% elsif product.tags contains 'Fave' %}
+							staff <br>fave
+							{% elsif product.compare_at_price != blank %}
+							sale
+							{% endif %}
+						</span>
+					</div>
+					<div class="product-image">
+						<img src="{{ product.featured_image | img_url: 'medium' }}" alt="">
+					</div>
+					<div class="product-footer">
+						<h2 class="product-title"><a href="{{ product.url }}">{{ product.title }}</a></h2>
+						<span class="product-price">{{ product.price | money }}</span>
+					</div>
+
+			</div>
+		{% endfor %}
+	</div>
+
+</div>
+
+
+{% schema %}
+{
+	"name": "Weekly Picks",
+	"settings": [
+		{
+			"type": "collection",
+			"id": "collection",
+			"label": "Collection"
+		}
+	],
+	"presets": [
+		{
+			"name": "Weekly Picks"
+		}
+	]
+}
+{% endschema %}

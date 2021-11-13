@@ -106,9 +106,16 @@
           font-size: 1.6rem;
         }
       }
+
+    .bubble--sale{color: white; background-image: url({{'bubble-sale.svg' | asset_url }});}
+    .bubble--fave{color: white; background: url({{'bubble-fave.svg' | asset_url }});}
+    .bubble--new{background-image: url({{'bubble-new.svg' | asset_url }});}
+
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+
+
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
