@@ -37,21 +37,29 @@
               "menu": "footer"
             }
           },
+          "75552985-c861-4399-9935-cba36c66dbbb": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Information",
+              "menu": "information"
+            }
+          },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
+              "heading": "Enjoy The Winter",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
+          "75552985-c861-4399-9935-cba36c66dbbb",
           "footer-1"
         ],
         "settings": {
           "color_scheme": "accent-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
           "enable_country_selector": true,
