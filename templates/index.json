@@ -63,17 +63,17 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "copy-of-black-waistcoat",
+            "product": "black-leather-sandal",
             "second_image": false,
-            "image_padding": true,
+            "image_padding": false,
             "secondary_background": false
           }
         },
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "image_padding": false,
+            "collection": "accessories",
+            "image_padding": true,
             "color_scheme": "background-1"
           }
         }
