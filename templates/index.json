@@ -63,9 +63,9 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "copy-of-black-waistcoat",
             "second_image": false,
-            "image_padding": false,
+            "image_padding": true,
             "secondary_background": false
           }
         },
