@@ -37,16 +37,24 @@
               "menu": "footer"
             }
           },
+          "c4a1bfaf-6fd6-4349-8192-cf5e0d2a4df2": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
+              "heading": "Enjoy the winter",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
+          "c4a1bfaf-6fd6-4349-8192-cf5e0d2a4df2",
           "footer-1"
         ],
         "settings": {
