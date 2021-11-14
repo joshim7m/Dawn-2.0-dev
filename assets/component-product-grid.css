@@ -19,3 +19,19 @@
     margin-bottom: calc(-1rem - var(--page-width-margin));
   }
 }
+
+.product-list.bubble--sale {
+    color: white;
+    background-image: url(//cdn.shopify.com/s/files/1/0609/6525/7454/t/4/assets/bubble-sale.svg?v=3524348833462465639);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

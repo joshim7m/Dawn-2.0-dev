@@ -10,9 +10,6 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "page_width": "1200",
-    "social_twitter_link": "#",
-    "social_facebook_link": "#",
-    "social_instagram_link": "#",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -36,38 +33,30 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Our Policy",
+              "heading": "Quick links",
               "menu": "footer"
-            }
-          },
-          "c4a1bfaf-6fd6-4349-8192-cf5e0d2a4df2": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Information",
-              "menu": "information"
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Enjoy the winter",
+              "heading": "Heading",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "c4a1bfaf-6fd6-4349-8192-cf5e0d2a4df2",
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "accent-1",
-          "newsletter_enable": false,
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
+          "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
-          "payment_enable": false
+          "payment_enable": true
         }
       }
     },
