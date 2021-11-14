@@ -49,6 +49,61 @@
       "settings": {
       }
     },
+    "16368637505343050c": {
+      "type": "featured-product",
+      "blocks": {
+        "16368637508fb70c4b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16368637508fb70c4b-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16368637508fb70c4b-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16368637508fb70c4b-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16368637508fb70c4b-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16368637508fb70c4b-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16368637508fb70c4b-0",
+        "16368637508fb70c4b-1",
+        "16368637508fb70c4b-2",
+        "16368637508fb70c4b-3",
+        "16368637508fb70c4b-6",
+        "16368637508fb70c4b-7"
+      ],
+      "settings": {
+        "product": "red-parka",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -88,75 +143,13 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
-    },
-    "16368637505343050c": {
-      "type": "featured-product",
-      "blocks": {
-        "16368637508fb70c4b-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "16368637508fb70c4b-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "16368637508fb70c4b-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "16368637508fb70c4b-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "16368637508fb70c4b-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "16368637508fb70c4b-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "16368637508fb70c4b-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "16368637508fb70c4b-0",
-        "16368637508fb70c4b-1",
-        "16368637508fb70c4b-2",
-        "16368637508fb70c4b-3",
-        "16368637508fb70c4b-4",
-        "16368637508fb70c4b-6",
-        "16368637508fb70c4b-7"
-      ],
-      "settings": {
-        "product": "red-parka",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
     }
   },
   "order": [
     "16368059035f4ec948",
     "16367756652f50d607",
     "16367933522cc3b739",
-    "collage",
-    "16368637505343050c"
+    "16368637505343050c",
+    "collage"
   ]
 }
