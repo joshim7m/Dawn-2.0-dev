@@ -3,13 +3,12 @@
     "16368059035f4ec948": {
       "type": "hero",
       "settings": {
-        "bg_img": "shopify:\/\/shop_images\/pexels-gantas-vaiciulenas-4761866.jpg"
       }
     },
     "16367756652f50d607": {
       "type": "weekly-picks",
       "settings": {
-        "collection": "weekly-picks"
+        "collection": "frontpage"
       }
     },
     "16367933522cc3b739": {
@@ -55,7 +54,6 @@
         "video": {
           "type": "video",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/mq1.jpg",
             "video_url": "https:\/\/youtu.be\/4CQK5RAAdjc",
             "description": "Describe the video",
             "image_padding": false
